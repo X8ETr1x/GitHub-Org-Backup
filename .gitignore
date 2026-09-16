@@ -1,0 +1,7 @@
+.env.config
+.env.secrets
+*.spec
+/.venv/
+/build/
+/dist/
+__pychache__/
