@@ -14,7 +14,7 @@ Unfortunately, GitHub does not yet support fine-grained access tokens for this, 
 
 If you intend to use this for automation, I highly advise regular rotation of that secret and to make sure that the secrets file permissions are set to 600.
 
-I recommend compiling and deploying a binary instead of running as a script, though both will work. Otherwise, a virtual environment or Docker container will be required in most production cases.
+I recommend compiling and deploying a binary instead of running as a script, though both will work. Otherwise, a virtual environment or Docker container will be required in most production cases. A binary is provided as a release for convenience, but a blind trust test is never advised.
 
 ## Configuration Files
 
