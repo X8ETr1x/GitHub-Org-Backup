@@ -6,7 +6,7 @@ GitHub offers a method to migrate an organization to GitHub Enterprise. It just 
 
 All data is pulled into class variables and is **not** added to the system's environment variables. The code will pull key/value settings from two files:
 - `.env.config`: contains configuration settings relating to connecting to the GitHub API and where to save the archives.
-- `env.secrets`: contains the GitHub personal access token.
+- `.env.secrets`: contains the GitHub personal access token.
 
 Unfortunately, GitHub does not yet support fine-grained access tokens for this, so you'll need the following:
 - A legacy personal access token with repo:full control and admin:org.
