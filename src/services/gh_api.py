@@ -80,7 +80,7 @@ class GitHub:
     def _request_url(request_type, url, headers, data=None):
         try:
             if request_type == 'get':
-                r = get(url, headers=headers)
+                r = get(url=url, headers=headers)
                 r.raise_for_status()
             elif request_type == 'post':
                 r = post(url=url, headers=headers, data=dumps(data))
